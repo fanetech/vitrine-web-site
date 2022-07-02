@@ -1,15 +1,12 @@
-import React from 'react';
-import Navigation from '../components/Navigation';
+import React from "react";
+import Navigation from "../components/Navigation";
 
 function Home(props) {
-    return (
-        <div>
-        <Navigation />
-            <h1>
-                Home
-            </h1>
-        </div>
-    );
+  return (
+    <div>
+      <Navigation />
+    </div>
+  );
 }
 
 export default Home;
