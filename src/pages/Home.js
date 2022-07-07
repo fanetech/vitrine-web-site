@@ -5,6 +5,7 @@ import Navigation from "../components/Navigation";
 function Home(props) {
   return (
     <div>
+      <h1>helo</h1>
       <Monse />
       <Navigation />
     </div>
