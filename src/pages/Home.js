@@ -1,13 +1,14 @@
 import React from "react";
 import Monse from "../components/Monse";
 import Navigation from "../components/Navigation";
+import SocialNetwork from "../components/SocialNetwork";
 
 function Home(props) {
   return (
     <div>
-      <h1>helo</h1>
       <Monse />
       <Navigation />
+      <SocialNetwork />
     </div>
   );
 }
